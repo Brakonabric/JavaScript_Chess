@@ -1,0 +1,17 @@
+#gameboard{
+    width: 320px;
+    height: 320px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    height: 40px;
+    width: 40px;
+}
+.cyan{
+    background-color: #90d0b7;
+}
+.marine{
+    background-color: #217366;
+}

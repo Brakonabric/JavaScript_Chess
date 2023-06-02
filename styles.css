@@ -1,17 +1,46 @@
-#gameboard{
+#gameboard {
     width: 320px;
     height: 320px;
     display: flex;
     flex-wrap: wrap;
 }
 
-.square{
+.square {
     height: 40px;
     width: 40px;
+    position: relative;
 }
-.cyan{
+
+.square svg {
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    position: relative;
+    z-index: -9;
+}
+
+path {
+    position: relative;
+    z-index: -10;
+}
+
+.piece {
+    position: relative;
+    z-index: 9;
+}
+
+.cyan {
     background-color: #90d0b7;
 }
-.marine{
+
+.marine {
     background-color: #217366;
+}
+
+.black {
+    fill: #252525;
+}
+
+.white {
+    fill: #ffffff;
 }
